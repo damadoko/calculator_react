@@ -68,7 +68,7 @@ class App extends Component {
       this.showResult();
     }
 
-    switch (input) {
+    switch (input) { 
       case "+":
         this.setState({ multipler: "+", isMutiplying: true, lastInput: "+" });
         break;
